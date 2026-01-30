@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | B.Tech Student</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home" class="active"><i class="fas fa-home"></i></a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Exp</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark Mode">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="container" id="home">
+        
+        <header class="card profile-section" id="about">
+            <div class="profile-img-container">
+                <img src="orofile.jpeg" alt="Profile Photo" class="profile-img">
+            </div>
+            <div class="profile-text">
+                <h1 class="name">
+                         Sahil kumar
+                     <i class="fas fa-check-circle" id="verified-tick" title="Verified Student"></i>
+                </h1>
+                <div class="role">Frontend Developer | B.Tech CSE</div>
+                
+                <p class="summary">
+                    Building scalable web applications with clean code and modern UI/UX. 
+                    Currently focused on <strong>React.js</strong> and <strong>Cloud Computing</strong>.
+                </p>
+
+                <p class="mindset">
+                    <i class="fas fa-brain"></i> Problem Solver & Continuous Learner
+                </p>
+                
+                <div class="btn-container">
+                    <a href="#contact" class="btn-primary">Hire Me</a>
+                    <a href="#" class="btn-secondary"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <div class="grid-2">
+            <section class="card">
+                <h2><i class="fas fa-code"></i> Technical Skills</h2>
+                <div class="tags-container">
+                    <span class="skill-tag">C++ (DSA)</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">HTML5 & CSS3</span>
+                    <span class="skill-tag">JavaScript (ES6+)</span>
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="timeline-item">
+                    <h3>B.Tech in Computer Science</h3>
+                    <p class="highlight-text">XYZ Institute of Technology</p>
+                    <p class="sub-text">2023 - 2027</p>
+                    <p class="cgpa">CGPA: <strong>8.5 / 10.0</strong></p>
+                </div>
+            </section>
+        </div>
+
+        <section class="card" id="experience">
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+            
+            <div class="timeline-item">
+                <h3>Web Development Intern</h3>
+                <p class="highlight-text">ABC Tech Solutions</p>
+                <p class="sub-text">June 2024 - Aug 2024</p>
+                <ul class="job-details">
+                    <li>Developed responsive landing pages using React and Tailwind CSS.</li>
+                    <li>Collaborated with the backend team to integrate APIs.</li>
+                    <li>Improved page load speed by 20% through image optimization.</li>
+                </ul>
+            </div>
+            
+            <div class="timeline-item" style="margin-top: 20px;">
+                <h3>Open Source Contributor</h3>
+                <p class="highlight-text">GitHub Community</p>
+                <p class="sub-text">Jan 2024 - Present</p>
+                <ul class="job-details">
+                    <li>Contributed documentation fixes and small bug patches to React libraries.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card" id="projects">
+            <h2><i class="fas fa-layer-group"></i> Featured Projects</h2>
+            <div class="grid-2">
+                
+                <div class="project-item">
+                    <h3>🚀 E-Commerce Dashboard</h3>
+                    <p>A full-stack admin dashboard for managing inventory and orders.</p>
+                    
+                    <div class="tech-stack-row">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#" class="link-btn"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="#" class="link-btn live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <h3>🤖 AI Chat Interface</h3>
+                    <p>Minimalist chat UI integrated with OpenAI API. Solves the problem of clunky standard interfaces.</p>
+                    
+                    <div class="tech-stack-row">
+                        <span>JavaScript</span>
+                        <span>OpenAI API</span>
+                        <span>CSS Glassmorphism</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#" class="link-btn"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="#" class="link-btn live"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2><i class="fas fa-trophy"></i> Achievements & Certifications</h2>
+            <ul class="achievement-list">
+                <li>🏆 <strong>1st Runner Up</strong> - Smart India Hackathon (Internal Round) 2024</li>
+                <li>📜 <strong>Certified Java Developer</strong> - HackerRank (Gold Badge)</li>
+                <li>📜 <strong>Responsive Web Design</strong> - FreeCodeCamp Certification</li>
+            </ul>
+        </section>
+
+        <section class="card contact-section" id="contact">
+            <h2><i class="fas fa-paper-plane"></i> Get In Touch</h2>
+            <p style="text-align: center; max-width: 600px; margin: 0 auto 20px auto;">
+                I'm currently looking for internships and junior developer roles. Feel free to reach out!
+            </p>
+            <div class="contact-grid">
+                
+                <a href="mailto:sahilkumar77576@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email Me</span>
+                </a>
+
+                <a href="tel:+919876543210" class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 782963986</span>
+                </a>
+
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+
+                <a href="https://github.com/SAHIL21-2" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+
+                <a href="https://instagram.com/saahil1_91" target="_blank" class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Your Name. Built with Code.</p>
+        </footer>
+    </div>
+
+    <button id="scroll-top" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
